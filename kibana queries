@@ -1,0 +1,16 @@
+Active Accounts
+
+`Top values of operation_history.op_object.account_to_upgrade.keyword`
+HTTP://kibana.bts.mobi/app/lens#/edit/724192c0-82cd-11ed-8b01-3feed3a24d17?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4y,to:now))
+
+
+
+operation_history.op_object.pool : *
+
+operation_history.op_object.delta_collateral.amount : *
+
+operation_history.op_object.pool : "1.19.43"  OR operation_history.op_object.pool : "1.19.66"  OR operation_history.op_object.pool : "1.19.65" 
+
+operation_history.op_object.delta_collateral.amount  AND operation_history.op_object.delta_debt.asset_id: 1.3.5650 OR operation_history.op_object.delta_debt.asset_id: 1.3.5649
+
+
